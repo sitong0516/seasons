@@ -1,0 +1,70 @@
+AI PROMPTS AND LEARNING REVIEW
+AI Tool: ChatGPT
+
+PROMPT HISTORY
+
+First, I uploaded the assignment instructions and asked ChatGPT to help me understand what I needed to include.
+
+Next, I explained that I wanted to write about my teenage years in Boston. I shared memories of shoveling deep snow, getting soaked while playing golf, and going boating in hot sunshine with a cool breeze. I asked ChatGPT to add reasonable details and provide the complete code with step-by-step instructions for Visual Studio Code.
+
+Finally, I asked for an English-only prompt document with a natural student voice and a question-and-answer learning format.
+
+LEARNING REVIEW
+
+The following questions and answers reorganize the guidance into learning steps. They are a reconstructed review, not a verbatim record of separate conversations.
+
+Step 1: Understanding the Assignment
+
+Student: I am a little confused about how to organize this assignment. Can I write about my teenage years in Boston? What should each season include?
+
+AI: Yes. Start by explaining where you lived and which period of your life you are describing. Include at least two full paragraphs for each season. Discuss temperatures, precipitation, and memorable weather conditions. Every paragraph should have a heading identifying the season.
+
+Step 2: Creating the Files
+
+Student: I am using Visual Studio Code. What files should I create, and where should I put them?
+
+AI: Create a folder named seasons and open it in VS Code. Inside it, create index.html and style.css. Then create a documents folder containing ai_prompts.txt. Use lowercase letters for all file and folder names.
+
+Step 3: Understanding HTML and CSS
+
+Student: What is the difference between index.html and style.css? I want to understand why I need both.
+
+AI: HTML organizes the content, including headings, paragraphs, and sections. CSS controls how that content looks, including colors, fonts, and spacing. Separating them makes the page easier to organize and edit.
+
+Step 4: Organizing My Memories
+
+Student: I remember heavy snow and having to shovel so the car could get out. I also remember getting soaked during golf and feeling hot while boating. How can these memories fit into the page?
+
+AI: Use the winter paragraphs to describe the snow and shoveling. Use the summer paragraphs for boating and the sudden downpour during golf. Add spring and autumn descriptions to complete the four seasons, and review any added details to make sure they fit your experience.
+
+Step 5: Connecting the CSS File
+
+Student: How do I connect the CSS to my HTML page? Does it happen automatically?
+
+AI: Add this line inside the head element of index.html:
+
+<link rel="stylesheet" href="style.css">
+
+This tells the browser to load style.css from the same folder. The filename and location must match.
+
+Step 6: Changing the Seasonal Colors
+
+Student: The assignment asks for different heading and paragraph colors for each season. How can I change only one season at a time?
+
+AI: Give each season a class, such as spring or summer. Then use .spring h2 to style spring headings and .spring p to style spring paragraphs. Repeat this for the other seasons. Choose colors that remain easy to read against the background.
+
+Step 7: Previewing and Checking
+
+Student: After saving everything, how do I check my webpage? What should I check if the colors do not appear?
+
+AI: Open index.html in a browser. Check the headings, paragraphs, colors, and spacing. If the colors are missing, check the stylesheet link and make sure style.css is saved in the correct folder. After making changes, save your files and refresh the browser.
+
+Step 8: Submitting the Assignment
+
+Student: Should I submit index.html by itself, or do I need to include the other files?
+
+AI: Compress the entire seasons folder into seasons.zip. This includes the HTML page, stylesheet, and prompt document. Submit the ZIP file and add any further AI prompts to your record before submitting.
+
+AI USE NOTE
+
+ChatGPT generated the initial HTML and CSS together and explained how to use them. This review breaks that explanation into smaller learning steps. Some descriptive details were added by AI, and temperatures are approximate rather than verified historical measurements.
